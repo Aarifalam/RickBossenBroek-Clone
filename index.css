@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--primary-color);
+}
+
+header {
+  background-color: #fcf7f6;
+}
+
+/* i didn't see use case of this at other place thats why i am going to write in "index.css" */
+.no-list-style ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+/* header navs, when we are hovering over there a bckground color present and a small box is coming up, but this is only for navs */
+.no-list-style ul li:hover {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+/* when i hover every <a> tag should have color black */
+.no-list-style ul li:hover a {
+  color: var(--primary-color);
+}
